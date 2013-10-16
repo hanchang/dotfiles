@@ -1,0 +1,16 @@
+[user]
+	name = Han Chang
+	email = szu.han.chang@gmail.com
+[color]
+	diff = auto
+  ui = true
+[alias]
+  br = branch
+  co = checkout
+  ci = commit
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit
+  st = status
+  changes=diff --stat -r
+[core]
+	excludesfile = ~/.gitignore
+	editor = /usr/bin/vim
